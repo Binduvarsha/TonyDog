@@ -1,0 +1,155 @@
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+nav div.container-fluid{
+    padding: 0 0 50px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.509);
+    margin: 15px;
+    
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    z-index: 1;
+    top: 130px;
+    left: 30px ;
+    
+
+}
+
+.nav-brand{
+    font-family: ubuntu;
+}
+
+/* .second-section{
+    color:#ef8172;
+    margin: 0 50px ;
+} */
+
+
+
+.section-two-headings{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 1.5rem;
+   
+}
+
+#features{
+    text-align: center;
+    background-color: white;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.section-two-para{
+    color:#8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+.icon:hover{
+    color:  #ff4c68;
+}
+
+
+#testimonials{
+    background-color: #ef8172;
+    
+    text-align: center;
+}
+.carousel-inner{
+    padding: 7% 15%;
+
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+.company-logo{
+    width: 20%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius:  100%;
+    margin-right: 15px;
+}
+
+.testimonial-text{
+    color: #fff;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.price-card{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-text{
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+#footer i{
+    
+    padding: 5% 1% 3%;
+    
+}
+
+#footer{
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media(max-width:700px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
